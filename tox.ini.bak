@@ -1,0 +1,11 @@
+[flake8]
+extend-ignore = E111
+exclude =
+    .git,
+    __pycache__,
+    docs/source/conf.py,
+    old,
+    build,
+    dist
+max-complexity = 10
+#indent-size = 2
